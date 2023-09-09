@@ -7,7 +7,7 @@ import { H1 } from "./components/H1";
 function App() {
   const [num1, setNum1] = useState('');
   const [num2, setNum2] = useState('');
-  const [operator, setOperator] = useState('');
+  const [setOperator] = useState('');
   const [result, setResult] = useState('');
 
   const handleNum1Change = (e) => {
